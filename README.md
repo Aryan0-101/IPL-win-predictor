@@ -70,5 +70,20 @@ Model is trained using scikit-learn with logistic regression or other classifier
 The model could have been trained using better classifiers to attain more accuracy but inorder to get usable probabilities for the teams Logistic Regression was used. 
 
 ## Screenshots
+### 1. The Input Controls and Interface 
+![image](https://github.com/user-attachments/assets/578353c3-2473-459b-b186-5135a3733d3a)
+
+
+### 2. The Output Stats and Prediction 
+![image](https://github.com/user-attachments/assets/fb7c66ab-7b80-40c9-849a-dda5fa33a6cf)
+
+
+## 3. Comparison 
+  ### Google's Prediction 
+![image](https://github.com/user-attachments/assets/31219d28-363f-431a-beae-3acf0fe82e1a)
+
+
+  ### Our Prediction 
+![image](https://github.com/user-attachments/assets/123043f2-407f-493b-bf34-099a49c2411c)
 
 
