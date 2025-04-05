@@ -5,10 +5,10 @@ This is a dynamic and beautifully styled **Streamlit web app** that predicts the
 
 ## 🎯 Features
 
-- Predict win probability using a pre-trained machine learning model
+- Predict win probability of the teams playing in the second innings
+- Win probabilities comparable to Google's prediction
 - Dynamic, team-themed gradient backgrounds (e.g., red-black for RCB, yellow-blue for CSK)
 - Real-time input controls for score, overs, and match venue
-- Custom animations, Orbitron font, and IPL theme styling
 - Responsive and visually engaging layout
 
 ## 🧠 ML Model
@@ -22,6 +22,7 @@ The model was trained on historical IPL match data and uses features such as:
 - Run rate (RR) and required run rate (RRR)
 - Match location
 
+** Team battle's and player's form have not been taken into consideration. 
 
 ## 🛠️ Installation
 
