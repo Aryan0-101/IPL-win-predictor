@@ -118,7 +118,7 @@ st.markdown(
 st.markdown('<img class="ipl-logo" src="https://1000logos.net/wp-content/uploads/2022/08/Indian-Premier-League-Logo-500x281.png" alt="IPL Logo">', unsafe_allow_html=True)
 
 # Load the model
-pipe = pickle.load(open("Model/pipe2.pkl", "rb"))
+pipe = pickle.load(open('../Model/pipe2.pkl', "rb"))
 
 st.markdown('<p class="main-title">🏏🎉 IPL Win Predictor🎉🏏</p>', unsafe_allow_html=True)
 
