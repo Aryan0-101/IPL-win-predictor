@@ -29,7 +29,7 @@ The model was trained on historical IPL match data and uses features such as:
 
 ```bash
 git clone https://github.com/yourusername/ipl-win-predictor.git
-cd ipl-win-predictor
+cd IPL-win-predictor
 ```
 2. Install dependencies
 ```bash
