@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
+import pickle
 
 # IPL TEAM COLORS FOR GRADIENT
 team_colors = {
@@ -117,8 +119,11 @@ st.markdown(
 # IPL LOGO
 st.markdown('<img class="ipl-logo" src="https://1000logos.net/wp-content/uploads/2022/08/Indian-Premier-League-Logo-500x281.png" alt="IPL Logo">', unsafe_allow_html=True)
 
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # go up one level from current file
+model_path = os.path.join(BASE_DIR, 'Model', 'pipe2.pkl')
+
 # Load the model
-pipe = pickle.load(open('../Model/pipe2.pkl', "rb"))
+pipe = pickle.load(open(model_path, "rb"))
 
 st.markdown('<p class="main-title">🏏🎉 IPL Win Predictor🎉🏏</p>', unsafe_allow_html=True)
 
