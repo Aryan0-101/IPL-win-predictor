@@ -28,5 +28,47 @@ The model was trained on historical IPL match data and uses features such as:
 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/IPL-win-predictor.git
+git clone https://github.com/yourusername/ipl-win-predictor.git
 cd ipl-win-predictor
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Run the app
+```bash
+streamlit run app.py
+```
+
+## 📂 File Structure 
+```bash 
+├── app.py                        # Main Streamlit app
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+
+├── Model/
+│   ├── pipe2.pkl                       # Trained model
+│   └── IPL_prediction_model.ipynb      # Script to train the model
+
+├── Preprocessing/
+│   ├── ipl-prediction-preprocessor.ipynb       # Feature engineering, cleaning, encoding
+│   └── ipl_data.csv                            # Processed IPL dataset  
+```
+
+## 🧪 Preprocessing
+Preprocessing includes:
+1. Handling missing values
+2. Calculating features like RR, RRR, balls_left, runs_left, etc.
+3. Engineering some features. 
+4. Handling missing values. 
+5. Label encoding of categorical variables (e.g., city)
+
+Located in: preprocessing/preprocess_data.py
+
+## 🧠 Model Training
+Model is trained using scikit-learn with logistic regression or other classifiers. 
+The model could have been trained using better classifiers to attain more accuracy but inorder to get usable probabilities for the teams Logistic Regression was used. 
+
+## Screenshots
+
+
