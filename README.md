@@ -28,5 +28,5 @@ The model was trained on historical IPL match data and uses features such as:
 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/ipl-win-predictor.git
+git clone https://github.com/yourusername/IPL-win-predictor.git
 cd ipl-win-predictor
